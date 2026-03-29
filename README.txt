@@ -7,3 +7,8 @@ Added:
 - premium glass panel effect
 
 Upload/replace all files in GitHub, including hero.jpg
+
+Tweaks in v7:
+- Hero image lightened
+- Overlay softened
+- Header branding enlarged
