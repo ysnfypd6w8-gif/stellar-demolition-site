@@ -1,11 +1,9 @@
-Fixed version of the Stellar Demolition site.
+Premium v4 update for Stellar Demolition.
 
-What changed:
-- CSS moved into a separate styles.css file
-- Better compatibility for static hosting on Vercel
-- Same content and contact form retained
+Files:
+- index.html
+- styles.css
+- thanks.html
+- vercel.json
 
-How to update in Vercel:
-1. Open your Vercel project
-2. Go to the current deployment
-3. Upload/redeploy this fixed package
+Redeploy by replacing the files in your GitHub repo, then Vercel will update automatically.
