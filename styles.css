@@ -379,3 +379,42 @@ h2{margin:18px 0 0;font-size:54px;line-height:1.02;letter-spacing:-.05em;font-we
     flex-wrap:wrap;
   }
 }
+
+
+.seo-locations-hub{
+  padding-top:40px;
+  padding-bottom:20px;
+}
+.location-page-grid{
+  margin-top:28px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+.location-page-card{
+  display:block;
+  padding:24px;
+  border-radius:24px;
+  background:rgba(255,255,255,.82);
+  border:1px solid rgba(20,21,23,.06);
+  box-shadow:0 18px 50px rgba(0,0,0,.06);
+}
+.location-page-card h3{
+  margin:0;
+  font-size:26px;
+}
+.location-page-card p{
+  margin:10px 0 0;
+  color:var(--muted);
+  font-size:16px;
+}
+@media (max-width:1100px){
+  .location-page-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+@media (max-width:760px){
+  .location-page-grid{
+    grid-template-columns:1fr;
+  }
+}
